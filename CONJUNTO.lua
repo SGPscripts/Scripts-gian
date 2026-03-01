@@ -171,3 +171,14 @@ Tab:CreateButton({
         end)
     end
 })
+-- boton infinite yield
+Tab:CreateButton({
+    Name = "infinite yield",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"
+            ))()
+        end)
+    end
+})
