@@ -104,3 +104,14 @@ Tab:CreateButton({
         end)
     end
 })
+-- boton baldy to sorcerer
+Tab:CreateButton({
+    Name = "baldy to sorcerer",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"
+            ))()
+        end)
+    end
+})
