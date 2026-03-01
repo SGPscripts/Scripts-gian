@@ -115,3 +115,36 @@ Tab:CreateButton({
         end)
     end
 })
+-- boton skin changer (soluna)
+Tab:CreateButton({
+    Name = "SKIN CHANGER QUE TANTO JODISTE XD",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/skin-changer.lua",
+                true
+            ))()
+        end)
+    end
+})-- boton rivals skin changer
+Tab:CreateButton({
+    Name = "rivals skin changer 2",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://rawscripts.net/raw/RIVALS-yabujin-skinchanger-crack-105883"
+            ))()
+        end)
+    end
+    })
+    -- boton blade ball (menos efectos)
+Tab:CreateButton({
+    Name = "BLADE BALL",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/ImNotRox1/Trevous-Hub/refs/heads/main/blade-ball.lua"
+            ))()
+        end)
+    end
+})
