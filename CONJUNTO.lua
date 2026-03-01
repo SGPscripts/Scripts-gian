@@ -160,3 +160,14 @@ Tab:CreateButton({
         end)
     end
 })
+-- boton bear alpha
+Tab:CreateButton({
+    Name = "BEAR ALPHA",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://rawscripts.net/raw/BEAR-(Alpha)-Bear-Alpha-l-BASC-THE-RETURN-I-READ-DESCRIPTION-115972"
+            ))()
+        end)
+    end
+})
