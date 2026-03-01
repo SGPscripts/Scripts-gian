@@ -82,3 +82,14 @@ Tab:CreateButton({
         end
     end
 })
+-- boton strongest battlegrounds
+Tab:CreateButton({
+    Name = "TSB HUB",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://rawscripts.net/raw/The-Strongest-Battlegrounds-The-strongest-battleground-50830"
+            ))()
+        end)
+    end
+})
