@@ -93,3 +93,14 @@ Tab:CreateButton({
         end)
     end
 })
+-- boton tsb hub (tu script)
+Tab:CreateButton({
+    Name = "TSB AUTOFARM",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/SGPscripts/roblox-scripts/refs/heads/main/tsb.lua"
+            ))()
+        end)
+    end
+})
