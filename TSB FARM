@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SGPscripts/roblox-scripts/refs/heads/main/tsb.lua"))()
