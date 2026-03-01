@@ -59,9 +59,9 @@ end
 -- local Window = Rayfield:CreateWindow({...})
 -- ventana (si ya la tenes, saltea esta parte)
 local Window = Rayfield:CreateWindow({
-    Name = "scripts-gian",
-    LoadingTitle = "cargando",
-    LoadingSubtitle = "rayfield",
+    Name = "Conjunto de scripts giansini",
+    LoadingTitle = "Cargando",
+    LoadingSubtitle = "Si lees esto soy santi",
     ConfigurationSaving = {
         Enabled = false
     }
@@ -71,14 +71,14 @@ local Tab = Window:CreateTab("graficos")
 
 -- boton no textures
 Tab:CreateButton({
-    Name = "no textures",
+    Name = "YOU VS HOMER",
     Callback = function()
         local ok, err = pcall(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Cat558-uz/Idisie/refs/heads/main/816d5b3cffe4ce14.lua.txt"))()
         end)
 
         if not ok then
-            warn("error en no textures:", err)
+            warn("error en you vs homer:", err)
         end
     end
 })
