@@ -67,7 +67,7 @@ local Window = Rayfield:CreateWindow({
     }
 })
 
-local Tab = Window:CreateTab("graficos")
+local Tab = Window:CreateTab("SCRIPTS mani xd")
 
 -- boton no textures
 Tab:CreateButton({
