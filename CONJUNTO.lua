@@ -148,3 +148,15 @@ Tab:CreateButton({
         end)
     end
 })
+-- boton blade ball soluna
+Tab:CreateButton({
+    Name = "BLADE BALL 2",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://soluna-script.vercel.app/bladeball.lua",
+                true
+            ))()
+        end)
+    end
+})
