@@ -106,7 +106,7 @@ Tab:CreateButton({
 })
 -- boton baldy to sorcerer
 Tab:CreateButton({
-    Name = "baldy to sorcerer",
+    Name = "GOJO SCRIPT",
     Callback = function()
         pcall(function()
             loadstring(game:HttpGet(
