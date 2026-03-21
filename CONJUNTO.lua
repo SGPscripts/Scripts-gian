@@ -71,10 +71,10 @@ local Tab = Window:CreateTab("SCRIPTS mani xd")
 
 -- boton no textures
 Tab:CreateButton({
-    Name = "YOU VS HOMER",
+    Name = "T3CHN0S BEAR HUB",
     Callback = function()
         local ok, err = pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Cat558-uz/Idisie/refs/heads/main/816d5b3cffe4ce14.lua.txt"))()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/BEAR-(Alpha)-T3CHN0S-BEAR-HUB-123480"))()
         end)
 
         if not ok then
