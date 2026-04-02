@@ -193,7 +193,7 @@ Tab:CreateButton({
         end)
     end
 })
--- boton no effects
+-- memesea
 Tab:CreateButton({
     Name = "MEME SEA",
     Callback = function()
@@ -204,4 +204,17 @@ Tab:CreateButton({
         end)
     end
 })
+-- bloxfeuits
+Tab:CreateButton({
+    Name = "BLOX FRUITS",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"
+            ))()
+        end)
+    end
+})
+
+
 
