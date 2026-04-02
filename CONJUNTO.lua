@@ -199,7 +199,7 @@ Tab:CreateButton({
     Callback = function()
         pcall(function()
             loadstring(game:HttpGet(
-                "loadstring(game:HttpGet("https://rawscripts.net/raw/UPDATE-4-Meme-Sea-FIXZ-HUB-OP-AUTO-FARM-60242"))()"
+                "https://rawscripts.net/raw/UPDATE-4-Meme-Sea-FIXZ-HUB-OP-AUTO-FARM-60242"
             ))()
         end)
     end
