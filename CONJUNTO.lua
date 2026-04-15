@@ -216,5 +216,18 @@ Tab:CreateButton({
     end
 })
 
+-- 2006 anima toons 
+
+
+Tab:CreateButton({
+    Name = "CAMINATA 2006",
+    Callback = function()
+        pcall(function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/SGPscripts/roblox-scripts/refs/heads/main/2006%20animations.lua"
+            ))()
+        end)
+    end
+})
 
 
