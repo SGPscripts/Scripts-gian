@@ -74,7 +74,7 @@ Tab:CreateButton({
     Name = "T3CHN0S BEAR HUB",
     Callback = function()
         local ok, err = pcall(function()
-            loadstring(game:HttpGet("https://rawscripts.net/raw/BEAR-(Alpha)-T3CHN0S-BEAR-HUB-123480"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/SGPscripts/roblox-scripts/refs/heads/main/T3CHN0S%20HUB.lua"))()
         end)
 
         if not ok then
